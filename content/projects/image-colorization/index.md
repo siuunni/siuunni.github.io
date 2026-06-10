@@ -4,6 +4,9 @@ date: 2025-12-08
 weight: 50
 featured: true
 math: true
+authors:
+  - me
+  - 김세희
 image:
   preview_only: true
 tags:

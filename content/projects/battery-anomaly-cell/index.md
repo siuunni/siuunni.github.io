@@ -3,6 +3,8 @@ title: "배터리 전압·온도 시계열 기반 이상 셀 탐지"
 date: 2025-12-12
 weight: 10
 featured: true
+authors:
+  - me
 math: true
 image:
   preview_only: true
@@ -12,8 +14,7 @@ tags:
   - Time Series
   - Conformal Prediction
   - FPCA
-authors:
-  - me
+
 
 ---
 
