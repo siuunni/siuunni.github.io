@@ -50,6 +50,16 @@ tags:
 
 배터리팩은 계층적으로 구성됩니다. 팩 1개 = **모듈 16개**, 모듈 1개 = **셀 11개**, 따라서 팩 전체는 **176개 셀**입니다. 온도는 모듈마다 센서 2개가 달려 총 32개 측정점을 갖습니다. 이 **셀–모듈–팩 계층**을 그대로 분석 단위에 반영했습니다(온도는 모듈당 2개 센서를 평균내 모듈 대표 온도로 사용).
 
+
+<figure style="margin:1.5rem auto;max-width:560px;">
+  <img src="/uploads/papers/battery_pack.png"
+       alt="전기 자동차용 배터리 팩-모듈-셀[사진 출처: 삼성 SDI]"
+       style="width:100%;border-radius:8px;border:1px solid rgba(148,163,184,.25);background:#fff;padding:.5rem;">
+  <figcaption style="font-size:.8rem;color:#94a3b8;margin-top:.5rem;text-align:center;">
+    배터리 팩은 여러 개의 모듈로 구성되며, 각 모듈은 다수의 셀로 이루어진 계층적 구조를 가졌습니다.
+  </figcaption>
+</figure>
+
 ---
 
 ## 데이터 전처리
@@ -84,7 +94,7 @@ $$\Sigma = \frac{1}{|D_{\mathrm{tr}}|}\sum_{i \in D_{\mathrm{tr}}} \sum_{j=1}^{M
 
 ### 온도 — vd-FPCA
 
-온도 곡선엔 vd-FPCA를 적용했습니다. 주성분 공간에서 온도 이상 데이터는 정상 군집과 멀리 떨어진 $(-25,\,26)$ 부근에 **고립되어 나타났습니다.** 이런 뚜렷한 분리는 **vd-FPCA가 길이가 다른 온도 곡선의 정상·이상 패턴 차이를 효과적으로 포착**했음을 보여줍니다.
+온도 곡선엔 vd-FPCA를 적용한 후 GMM을 통해 정상 집단과 이상 집단을 군집화했습니다. 주성분 공간에서 온도 이상 데이터는 정상 군집과 멀리 떨어진 $(-25,\,26)$ 부근에 **고립되어 나타났습니다.** 이런 뚜렷한 분리는 **vd-FPCA가 길이가 다른 온도 곡선의 정상·이상 패턴 차이를 효과적으로 포착**했음을 보여줍니다.
 
 <figure style="margin:1.5rem auto;max-width:560px;">
   <img src="/uploads/papers/battery_temp.png"
@@ -97,9 +107,9 @@ $$\Sigma = \frac{1}{|D_{\mathrm{tr}}|}\sum_{i \in D_{\mathrm{tr}}} \sum_{j=1}^{M
 
 ---
 
-## GMM 기반 등각 예측
+## 등각 예측
 
-차원을 줄인 점수 공간 위에서, **GMM 기반 등각 예측(Conformal Prediction)** 으로 이상을 판정했습니다.
+차원을 줄인 점수 공간 위에서, **등각 예측(Conformal Prediction)** 으로 이상을 판정했습니다.
 
 **왜 등각 예측인가.** 이 데이터는 이상 샘플이 적고 라벨도 부족합니다. 등각 예측은 점 예측 대신 예측 집합(prediction set)을 내놓는데, 교환가능성(exchangeability)이라는 최소한의 가정만으로 불확실성을 정량화합니다. 핵심은 **모델의 유효성과 무관하게 예측 집합이 참값을 포함할 확률이 설정한 수준 이상으로 유지된다**는 점입니다. 덕분에 분포 가정을 강하게 두기 어렵고 데이터 수가 적은 이번 같은 상황에서도 유효하게 작동하고, "$\alpha$ 수준에서 정상을 이상으로 잘못 볼 확률"을 통제할 수 있습니다.
 
