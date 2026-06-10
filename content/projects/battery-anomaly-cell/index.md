@@ -158,10 +158,10 @@ $$\Sigma = \frac{1}{|D_{\mathrm{tr}}|}\sum_{i \in D_{\mathrm{tr}}} \sum_{j=1}^{M
 - [Award Certificate (PDF)](/uploads/awards/kdata-kim-sieun.pdf)
 - [Related Article](https://n.news.naver.com/article/030/0003382790?sid=105)
 
-### 참고문헌
+## 참고문헌
 
 - Johns, J. T., Crainiceanu, C., Zipunnikov, V., & Gellar, J. (2019). [Variable-Domain Functional Principal Component Analysis](https://doi.org/10.1080/10618600.2019.1604373). *Journal of Computational and Graphical Statistics*, 28(4), 993–1006.
 
-### 출처
+## 출처
 - 배터리 팩 사진 [삼성 SDI](https://news.samsungsdi.com/ko/articleView?seq=206)
 
