@@ -10,6 +10,9 @@ tags:
   - DiD
   - Event Study
   - DoubleML
+authors:
+  - me
+
 ---
 
 <div style="display:grid;grid-template-columns:130px 1fr;gap:1rem 1.5rem;margin-bottom:2rem;">

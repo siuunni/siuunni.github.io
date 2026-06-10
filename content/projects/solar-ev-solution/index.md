@@ -2,6 +2,12 @@
 title: "지역별 태양광 발전량 예측 및 운영 솔루션"
 date: 2025-12-05
 weight: 60
+authors:
+  - me
+  - 장현우
+  - 이윤석
+  - 은지훈
+  - 박준연
 featured: true
 image:
   preview_only: true
