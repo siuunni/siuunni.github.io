@@ -152,8 +152,8 @@ $$\text{주행가능거리} = \frac{\dfrac{SoC}{100}\times C_{\text{batt}} + (E_
 - **경로 추천 알고리즘:** 네이버 길찾기 API로 실제 주행 경로를 계산해, 예측 주행가능거리와 연동한 **방향까지 고려한 충전소 추천**을 구현.
 - **End-to-end:** 데이터 수집(크롤링) → 주행가능거리 예측 → 경로 기반 추천 → 대시보드·모형 전기차 데모까지 전 과정을 완성.
 
----
-
+<!-- --- -->
+<!-- 
 ## 링크
 
-- [GitHub — N4 AIoT Project](https://github.com/statjhw/N4-AIot-Project)
+- [GitHub — N4 AIoT Project](https://github.com/statjhw/N4-AIot-Project) -->

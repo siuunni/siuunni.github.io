@@ -205,9 +205,9 @@ tags:
 - **일정·역할 관리:** 프론트엔드·백엔드·도메인 조사로 나뉜 5인 팀의 작업을 조율하고, 모델·서비스·배포가 한 흐름으로 통합되도록 관리했습니다.
 - **확장 비전:** IoT·디지털 트윈과 결합한 AIoT 생태계로의 확장 방향을 제시했습니다.
 
----
+<!-- ---
 
 ## 링크
 
 - [GitHub — AI/모델링](https://github.com/white9812/notimportant_ai)
-- [GitHub — Web](https://github.com/statjhw/SunForecastWeb)
+- [GitHub — Web](https://github.com/statjhw/SunForecastWeb) -->
