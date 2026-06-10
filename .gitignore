@@ -6,6 +6,9 @@
 # Hugo Build Artifacts
 # ============================================================================
 
+# Claude Code local config
+.claude/
+
 # Generated site output
 public/
 
