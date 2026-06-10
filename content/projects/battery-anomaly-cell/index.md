@@ -53,10 +53,10 @@ tags:
 
 <figure style="margin:1.5rem auto;max-width:560px;">
   <img src="/uploads/papers/battery_pack.png"
-       alt="전기 자동차용 배터리 팩-모듈-셀[사진 출처: 삼성 SDI]"
+       alt="전기 자동차용 배터리 팩-모듈-셀"
        style="width:100%;border-radius:8px;border:1px solid rgba(148,163,184,.25);background:#fff;padding:.5rem;">
   <figcaption style="font-size:.8rem;color:#94a3b8;margin-top:.5rem;text-align:center;">
-    배터리 팩은 여러 개의 모듈로 구성되며, 각 모듈은 다수의 셀로 이루어진 계층적 구조를 가졌습니다.
+    배터리 팩은 여러 개의 모듈로 구성되며, 각 모듈은 다수의 셀로 이루어진 계층적 구조를 가졌습니다.[사진 출처: 삼성 SDI]
   </figcaption>
 </figure>
 
