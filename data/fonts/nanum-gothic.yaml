@@ -1,0 +1,36 @@
+# HugoBlox Font Pack
+# https://docs.hugoblox.com
+
+hugoblox:
+  meta:
+    format: "hugoblox-font@1"
+    name: "Nanum Gothic"
+    vendor: "Google Fonts"
+    version: "1.0.0"
+    license: "OFL"
+    style: "sans"
+    description: "Korean sans-serif font pack using Nanum Gothic"
+
+  families:
+    heading: "Nanum Gothic"
+    body: "Nanum Gothic"
+    code: "Source Code Pro"
+
+  weights:
+    heading: [400, 700, 800]
+    body: [400, 700, 800]
+    code: [400]
+
+  leading:
+    heading: 1.25
+    body: 1.7
+    code: 1.5
+
+  tracking:
+    heading: "0"
+    body: "0"
+
+  variable:
+    heading: false
+    body: false
+    code: false

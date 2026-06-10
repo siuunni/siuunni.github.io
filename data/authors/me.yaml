@@ -1,0 +1,118 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Sieun Kim
+  given: Sieun
+  family: Kim
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: ''
+postnominals: []
+status:
+  icon: ""
+role: Data Scientist 
+bio: |
+  제조 센서 데이터, 배터리 시계열, 공정 이상 탐지, 인과추론, 생성형 AI/LLM Agent를
+  연결해 현장에서 신뢰할 수 있는 AI 의사결정 절차를 설계합니다.
+
+affiliations:
+  - name: INHA University
+    url: /
+
+links:
+  - icon: at-symbol
+    url: mailto:white9812@gmail.com
+    label: E-mail
+  - icon: brands/github
+    url: https://github.com/siuunni
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/sieun-kim-0124kse/
+
+interests:
+  - Manufacturing AI
+  - Anomaly detection
+  - Conformal prediction
+  - Causal inference
+  - LLM agent systems
+
+education:
+  - degree: M.S. in Statistics
+    institution: Inha University
+    start: 2024-09-01
+    end: 2026-08-31
+    gpa: 4.44 / 4.5
+    summary: |
+      다변량 통계 분석 연구실(지도교수: 조성훈)
+
+      **Research**
+      - Unsupervised Conformal Novelty Detection for Hierarchical Data (2024.09–2026.08)
+      - [IRIS] 단일광자 검출기 데이터 분석을 위한 통계적 방법 및 이론 연구 (2024.09–2026.08)
+
+      **Teaching Assistant**
+      - 표본론 및 실습, 빅데이터 자료분석 (2024.09–2024.12)
+      - 다변량통계 및 실습, 확률론 (2025.03–2025.06)
+
+      **Lab Assistant**
+      - 기초통계실습 1 (2025.09–2025.12 ), 기초통계실습 2 (2026.03–2026.06) 
+        - R을 이용하여 실습 자료 준비 및 수업, 학생 질문 대응
+   
+
+  - degree: B.S. in Statistics
+    institution: Inha University
+    start: 2019-03-01
+    end: 2024-08-31
+    gpa: 3.86 / 4.5
+    summary: |
+      **Undergraduate Research / Program**
+      - 2023.06–2023.08 유동현 교수님 연구실 학부연구생
+        - 인하대학교 소상공인 경제 생태계 연구소 연구보조원
+        - 상권 클러스터별 거리뷰 이미지 수집 및 연구 지원 업무 수행
+      - 2024.01–2024.11 제 3기 K-Software Empowerment BootCamp
+      - 2024.03–2024.08 조성훈 교수님 연구실 학부연구생
+
+skills:
+  - Python
+  - R
+  - PyTorch
+  - TensorFlow
+  - Scikit-Learn
+  - Git
+  - GitHub
+  - MySQL
+  - Oracle
+  - Linux
+
+languages:
+  - name: Korean
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: Working proficiency
+
+awards:
+  - title: 데이터 문제해결은행 활용 경진대회 데이터 레시피 부문 최우수상
+    awarder: 한국데이터산업진흥원
+    date: "2025-11-01"
+    summary: 배터리 전압 시계열 기반 이상 셀 탐지
+    url: /projects/battery-anomaly-cell/
+    certificate_url: /uploads/awards/kdata-kim-sieun.pdf
+    article_url: https://n.news.naver.com/article/030/0003382790?sid=105
+    icon: hero/trophy
+  - title: 2025 인하 인공지능 챌린지 우수상
+    awarder: 인하대학교 인공지능융합연구센터
+    date: "2025-07-01"
+    summary: 텍스트 기반 이미지 색채화 품질 개선
+    url: /projects/image-colorization/
+    certificate_url: /uploads/awards/inha-ai-challenge-kim-sieun.pdf
+    article_url: https://aix.inha.ac.kr/?page_id=3841&vid=34
+    icon: hero/trophy
+  - title: 제 5회 대구 빅데이터 분석 경진대회 우수상
+    awarder: 대구광역시 · 대구디지털혁신진흥원
+    date: "2023-09-01"
+    summary: IT/SW 기업 성장성 판단 기준 설계 데이터 분석
+    url: /projects/daegu-bigdata/
+    certificate_url: /uploads/awards/daegu-bigdata-kim-sieun.pdf
+    article_url: https://www.idaegu.co.kr/news/articleView.html?idxno=435460
+    icon: hero/trophy
