@@ -27,6 +27,9 @@ tags:
 <div style="font-weight:700;">대회</div>
 <div>LG Aimers 6기 — 난임 환자 대상 임신 성공 예측 AI 온라인 해커톤 (팀 간지포s)</div>
 
+<div style="font-weight:700;">기간</div>
+<div>2024.01 ~ 2024.05</div>
+
 <div style="font-weight:700;">데이터</div>
 <div>난임 환자 IVF(체외수정) 시술 데이터 (배아·난자 상태, 연령, 시술 이력 등)</div>
 

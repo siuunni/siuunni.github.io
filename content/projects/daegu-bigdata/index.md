@@ -24,6 +24,8 @@ tags:
 
 <div style="font-weight:700;">대회</div>
 <div>제5회 대구 빅데이터 분석 경진대회 — <strong>우수상 수상</strong></div>
+<div style="font-weight:700;">기간</div>
+<div>2023.05~2023.08</div>
 
 <div style="font-weight:700;">데이터</div>
 <div>IT/SW기업 생태계 실태조사, 대구·경북 ITSW기업, 현대카드·대구BC카드 매출, 시장금리(KOSIS)</div>

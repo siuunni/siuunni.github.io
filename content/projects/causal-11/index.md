@@ -23,6 +23,9 @@ authors:
 <div style="font-weight:700;">활동</div>
 <div>가짜연구소 11기 인과추론 팀 (오픈소스 코드집 제작·배포)</div>
 
+<div style="font-weight:700;">활동</div>
+<div>2025.09~2025.12</div>
+
 <div style="font-weight:700;">담당 역할</div>
 <div><strong>DiD 파트 코드 제작 (기여도 85%) · 팀원 코드 리뷰 (15%)</strong></div>
 

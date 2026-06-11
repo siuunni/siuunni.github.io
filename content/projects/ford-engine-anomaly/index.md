@@ -24,7 +24,8 @@ tags:
 
 <div style="font-weight:700;">수업</div>
 <div>심층신경망특론 기말 프로젝트 (인하대학교 통계데이터사이언스학)</div>
-
+<div style="font-weight:700;">기간</div>
+<div>2024.10 ~ 2024.12</div>
 <div style="font-weight:700;">데이터</div>
 <div>Ford 오픈 데이터셋 — 4,921개 시계열 샘플 × 500개 센서 (학습 3,601 / 테스트 1,320, 정상 1 / 이상 −1)</div>
 

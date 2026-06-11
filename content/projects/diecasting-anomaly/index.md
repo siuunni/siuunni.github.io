@@ -25,6 +25,9 @@ tags:
 <div style="font-weight:700;">대회</div>
 <div>제4회 K-인공지능 제조데이터 분석 경진대회 (KAMP, 2024)</div>
 
+<div style="font-weight:700;">기간</div>
+<div>2024.10~2024.11(약 2주)</div>
+
 <div style="font-weight:700;">데이터</div>
 <div>다이캐스팅 공정 시계열 2,852,465 cells (92,015 rows × 31 columns)</div>
 

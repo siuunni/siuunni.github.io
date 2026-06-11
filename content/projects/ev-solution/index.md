@@ -25,7 +25,7 @@ tags:
 <div>전기차의 실시간 <strong>BMS(배터리 관리 시스템)</strong> 데이터로 주행가능거리를 예측하고, 실제 주행 경로 위에서 도달 가능한 충전소를 실시간 추천하는 시스템입니다.</div>
 
 <div style="font-weight:700;">기간</div>
-<div>알파프로젝트 — 팀 N4 (2024.3 – 2024.6)</div>
+<div>2024.03 ~ 2024.06(알파프로젝트)</div>
 
 <div style="font-weight:700;">담당 역할</div>
 <div><strong>주행가능거리 예측 모델링 · 경로 추천 알고리즘 구현 · GUI 개발</strong></div>

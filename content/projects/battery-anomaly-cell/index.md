@@ -23,6 +23,9 @@ tags:
 <div style="font-weight:700;">개요</div>
 <div>배터리팩 충전 과정의 <strong>전압 및 온도</strong> 시계열을 함수형 데이터로 변환하고, 데이터 특성에 맞춰 FPCA와vd-FPCA로 차원을 줄인 뒤, GMM 기반 등각 예측(Conformal Prediction)으로 통계적으로 보장된 이상 탐지 기준을 설계한 프로젝트입니다.</div>
 
+<div style="font-weight:700;">연구 기간</div>
+<div>2024.05~2025.03</div>
+
 <div style="font-weight:700;">데이터</div>
 <div>KAMP 「전기차 배터리 충전 실험 데이터(품질보증)」 — 셀 176개(16 모듈 × 11 셀) 전압, 온도 측정점 32개(모듈당 2개). 학습은 정상만, 테스트는 정상,이상 혼합</div>
 

@@ -24,7 +24,8 @@ tags:
 
 <div style="font-weight:700;">대회</div>
 <div>2025 INHA AI Challenge, 대학원생 부문 3위</div>
-
+<div style="font-weight:700;">기간</div>
+<div>2025.06 ~ 2025.07(약 1달ㄴ)</div>
 <div style="font-weight:700;">과제</div>
 <div>텍스트(캡션) 조건부 흑백→컬러 이미지 생성, 텍스트 의미 일치도 기반 Score 평가</div>
 
