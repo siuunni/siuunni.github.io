@@ -13,8 +13,8 @@ status:
   icon: ""
 role: Data Scientist 
 bio: |
-  시계열 데이터, 이상 탐지, 인과추론, 생성형 AI/LLM Agent를
-  연결해 신뢰할 수 있는 데이터 기반 의사결정 절차를 설계합니다.
+  통계적 모델링과 AI 기술을 활용해
+  시계열 예측, 이상 탐지, 생성형 AI Agent를 연구하고 구현합니다.
 
 affiliations:
   - name: INHA University
