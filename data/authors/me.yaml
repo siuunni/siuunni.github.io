@@ -24,8 +24,8 @@ links:
   - icon: at-symbol
     url: mailto:white9812@gmail.com
     label: E-mail
-  - icon: brands/github
-    url: https://github.com/siuunni
+  # - icon: brands/github
+  #   url: https://github.com/siuunni
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/sieun-kim-0124kse/
 
