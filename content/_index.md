@@ -10,7 +10,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: '데이터 기반 문제를 통계적 신뢰성과 해석 가능성의 관점에서 다루며, 이상 탐지, 예측, 최적화, 생성형 AI Agent를 설계합니다.'
+      text: '데이터를 바탕으로 문제를 이해하고, 신뢰할 수 있는 분석과 예측을 고민하는 데이터 분석가입니다.'
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Resume
