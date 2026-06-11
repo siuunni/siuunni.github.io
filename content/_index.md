@@ -14,7 +14,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Resume
-        url: uploads/Sieun_Kim_Resume.pdf?v=20260611
+        url: uploads/resume.pdf
       headings:
         about: 'About'
         education: 'Education'
