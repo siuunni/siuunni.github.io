@@ -10,7 +10,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
-      text: '제조 현장의 센서 데이터와 통계적 신뢰성 연구를 바탕으로 이상 탐지, 예측, 최적화, 생성형 AI Agent를 설계합니다.'
+      text: '데이터 기반 문제를 통계적 신뢰성과 해석 가능성의 관점에서 다루며, 이상 탐지, 예측, 최적화, 생성형 AI Agent를 설계합니다.'
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Resume

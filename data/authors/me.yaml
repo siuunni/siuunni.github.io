@@ -13,8 +13,8 @@ status:
   icon: ""
 role: Data Scientist 
 bio: |
-  제조 센서 데이터, 배터리 시계열, 공정 이상 탐지, 인과추론, 생성형 AI/LLM Agent를
-  연결해 현장에서 신뢰할 수 있는 AI 의사결정 절차를 설계합니다.
+  시계열 데이터, 이상 탐지, 인과추론, 생성형 AI/LLM Agent를
+  연결해 신뢰할 수 있는 데이터 기반 의사결정 절차를 설계합니다.
 
 affiliations:
   - name: INHA University
@@ -31,6 +31,7 @@ links:
 
 interests:
   - Manufacturing AI
+  - Applied AI
   - Anomaly detection
   - Conformal prediction
   - Causal inference
