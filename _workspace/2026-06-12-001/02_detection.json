@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "run_id": "2026-06-12-001",
+    "input_length": 1110,
+    "estimated_genre": "공적 (포트폴리오/자기소개서 — 프로젝트 경험 서술, 합니다체)",
+    "genre_hint_received": "공적",
+    "min_severity": "S2",
+    "sentence_count": 16,
+    "sentence_length_stats": {
+      "mean": 64.38,
+      "stdev": 21.98,
+      "min": 34,
+      "max": 106,
+      "uniformity_warning": false,
+      "note": "표준편차 21.98로 충분히 분산됨. 34~106자 구간에 고루 퍼져 E-1(길이 균일)·E-4(단문 일변도) 미발화. 인간적 리듬 변주 양호."
+    },
+    "comma_stats": {
+      "sentences_with_comma": 6,
+      "comma_inclusion_rate": 0.375,
+      "c12_threshold": 0.5,
+      "c12_triggered": false,
+      "note": "쉼표 포함 문장 비율 37.5% — C-12(쉼표 포함률 50% 초과) 미발화."
+    },
+    "detected_count": 4,
+    "ai_tell_density": 0.027,
+    "severity_weighted_score": 24.0,
+    "severity_weighted_raw": 12,
+    "category_summary": {
+      "A": 1,
+      "B": 0,
+      "C": 1,
+      "D": 0,
+      "E": 0,
+      "F": 0,
+      "G": 0,
+      "H": 1,
+      "I": 0,
+      "J": 0,
+      "C-11_subspans": 5
+    },
+    "confidence_note": "전반적으로 AI 티 밀도가 낮은 깔끔한 글. 전문 용어·수치(FDP·FDR·Conformal Prediction·Novelty Detection·제1종오류·다중가설검정·약 2배)는 Do-NOT 대상으로 탐지 제외. 섹션 라벨 **[...]**은 구조형 자기소개 포맷 기능 요소로 보존(C-3 미적용). 최강 신호는 C-11(연결어미 뒤 쉼표) 5회로 S2."
+  },
+  "findings": [
+    {
+      "id": "f001",
+      "category": "C-11",
+      "category_label": "구조: 연결어미 뒤 쉼표",
+      "severity": "S2",
+      "scope": "document",
+      "reason": "연결어미 직후 쉼표가 5회 등장 — '적용해,'(495) · '없어,'(674) · '결합해,'(766) · '집중했지만,'(980) · '정량화하고,'(1069). 한국어는 연결어미 자체가 호흡 단위를 만들어 추가 쉼표가 잉여이며, 영어 comma-after-conjunction 감각의 이식이다. 5회는 C-11 임계(6+ S1 / 3~5 S2)에서 S2. 문서 단일 최강 시그니처. 참고로 '때문에,'(563)는 명사+조사 이유구로 연결어미가 아니어서 제외.",
+      "suggested_fix": "연결어미 뒤 쉼표를 일괄 제거하거나, 호흡이 길어지는 문장은 마침표로 절을 분할. 예: '…결합해, FDR을 통제하면서도…' → '…결합했습니다. 그 결과 FDR을 통제하면서도…' 또는 '…결합해 FDR을 통제하면서도…'(쉼표만 삭제).",
+      "related_subspans": [
+        {"text_span": "적용해,", "start": 492, "end": 496},
+        {"text_span": "없어,", "start": 672, "end": 675},
+        {"text_span": "결합해,", "start": 763, "end": 767},
+        {"text_span": "집중했지만,", "start": 975, "end": 981},
+        {"text_span": "정량화하고,", "start": 1064, "end": 1070}
+      ]
+    },
+    {
+      "id": "f002",
+      "category": "A-10",
+      "category_label": "번역투: ~할 수 있다 남발",
+      "severity": "S2",
+      "scope": "document",
+      "reason": "가능형 '~수 있-' 서술이 4회 반복 — '신뢰할 수 있는'(189) · '잡아낼 수 있다는'(922) · '믿을 수 있느냐'(1018) · '키울 수 있었습니다'(1101). 3회+로 A-10 S2 발화. 일부는 확정 단언으로 톤 전환 가능한 자리(특히 결과·결말부). 단 '믿을 수 있느냐'(1018)는 신뢰도라는 주제 자체를 가리키는 의미 핵심이라 보존 권장.",
+      "suggested_fix": "확정 가능한 곳은 단언으로 전환. '실제 이상 신호는 더 효과적으로 잡아낼 수 있다는 걸 확인했습니다' → '실제 이상 신호를 더 효과적으로 잡아낸다는 걸 확인했습니다'. '역량을 키울 수 있었습니다' → '역량을 키웠습니다'. 가능성 강조가 핵심인 1018번 자리만 유지.",
+      "related_subspans": [
+        {"text_span": "신뢰할 수 있", "start": 185, "end": 192},
+        {"text_span": "잡아낼 수 있다", "start": 918, "end": 926},
+        {"text_span": "믿을 수 있느냐", "start": 1015, "end": 1023, "note": "주제 핵심 — 보존 권장"},
+        {"text_span": "키울 수 있었", "start": 1098, "end": 1105}
+      ]
+    },
+    {
+      "id": "f003",
+      "category": "A-2",
+      "category_label": "번역투: ~를 통해 / 이를 통해",
+      "severity": "S2",
+      "scope": "span",
+      "text_span": "이 경험을 통해",
+      "start": 1042,
+      "end": 1050,
+      "reason": "결말부에서 '이 경험을 통해'로 경로를 처리 — D-1 검증 결산 lexicon '이를 통해' 계열과 동형이며 A-2(통해)와 가산. 본문 내 '통해'는 이 1회뿐이라 남발은 아니나, 결말 도입 상투구 위치라 S2. ('이를 위해'(718)는 위해 계열이며 별건.)",
+      "suggested_fix": "'이 경험을 통해 분석 결과의 불확실성을 정량화하고…' → '이 경험으로 분석 결과의 불확실성을 정량화하고…' 또는 '이때 분석 결과의 불확실성을 정량화하는 법을 익혔고…' 식으로 도입구 자체를 가볍게.",
+      "related_findings": ["D-1 결산 lexicon 동형"]
+    },
+    {
+      "id": "f004",
+      "category": "H-1",
+      "category_label": "접속사: 문두 접속사 (그래서/또한)",
+      "severity": "S2",
+      "scope": "document",
+      "reason": "문두 접속사가 3회 — '그래서'(162) · '그래서'(383) · '또한'(431). 특히 '그래서'가 인접 문단 시작에 2회 반복되어 논리 연결을 접속사에 의존. 자기소개서 흐름상 일부는 접속사 없이도 인과가 자명.",
+      "suggested_fix": "문두 접속사 일부 삭제. 두 번째 '그래서 정상 데이터만으로…'는 '그래서'를 빼고 '정상 데이터만으로 학습하는 Novelty Detection 방식을 택했습니다'로 직진해도 인과가 통함. '또한'은 '여기에 더해' 정도로 1회만 변주하거나 삭제.",
+      "related_subspans": [
+        {"text_span": "그래서", "start": 162, "end": 165},
+        {"text_span": "그래서", "start": 383, "end": 386},
+        {"text_span": "또한", "start": 431, "end": 433}
+      ]
+    }
+  ],
+  "excluded_candidates": [
+    {"pattern": "A-11 ~을 위해", "occurrences": 2, "decision": "제외 (S3 강등)", "reason": "'결과를 내기 위해'(467)·'이를 위해'(718) 2회로 3회+ 임계 미달. min_severity S2 미달."},
+    {"pattern": "C-12 쉼표 포함률", "occurrences": "37.5%", "decision": "미발화", "reason": "임계 50% 미달."},
+    {"pattern": "E-1/E-4 리듬", "decision": "미발화", "reason": "문장 길이 stdev 21.98, 34~106자 분산. 단문·복문 혼재 양호."},
+    {"pattern": "C-3 섹션 헤딩", "decision": "보존", "reason": "**[문제 정의]** 등은 구조형 자기소개 포맷의 기능 요소 — 사용자 지시로 보존."},
+    {"pattern": "전문 용어·수치", "decision": "Do-NOT", "reason": "FDP·FDR·Conformal Prediction·Novelty Detection·제1종오류·다중가설검정·약 2배 등 탐지 제외."},
+    {"pattern": "B-1/B-2 영어 용어", "decision": "미발화", "reason": "Novelty Detection·Conformal Prediction은 업계 표준 전문 용어이자 Do-NOT 대상. 괄호 병기 남용 없음."}
+  ]
+}
