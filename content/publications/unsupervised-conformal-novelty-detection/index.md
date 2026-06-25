@@ -14,7 +14,7 @@ image:
   preview_only: true
 links:
   - name: PDF
-    url: /uploads/papers/unsupervised-conformal-novelty-detection.pdf
+    url: /uploads/papers/Hierarchical_Conformal_Outlier_Detection.pdf
 summary: "A conformal e-value framework for unsupervised novelty detection in hierarchically structured data, achieving FDR control at both group and unit levels."
 tags:
   - Conformal Prediction
