@@ -41,6 +41,17 @@ node_modules/
 .env.local
 .env.*.local
 
+# Local private files
+.private_local_only/
+flex_포폴_overleaf/
+flex_포폴_overleaf.zip
+lgcns_포폴_overleaf/
+lgcns_포폴_overleaf.zip
+베가스_자기소개서.md
+플렉스팀_포폴_슬라이드구성.md
+현대로템_경력기술서.md
+현대로템_경력기술서.txt
+
 # ============================================================================
 # Generated Content
 # ============================================================================
